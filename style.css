@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 50px;
+    margin-right: 230px;
+    margin-left: 230px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60px;
+}
+
+span{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.botoes1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 25px;
+    flex-direction: column;
+}
+
+.botoes1_ , .botoes2_ , .botoes3_{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 25px;
+    gap: 8px;
+}
+
+.botoes1 button{
+    padding: 1px 25px 1px 25px;
+    height: 70px;
+}
+
+.botoes2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 25px;
+    flex-direction: column;
+    width: 600px;
+    
+}
+
+.botoes2 button{
+    padding: 1px 25px 1px 25px;
+    height: 70px;
+}
+
+.botoes2 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.botoes3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 25px;
+    flex-direction: column;
+    width: 200px;
+}
+
+.botoes3 button{
+    padding: 1px 25px 1px 25px;
+    width: 30px;
+    height: 70px;
+    
+}
+
+.vermelho{
+    background-color: red;  
+}
+
+.azul{
+    background-color: blue; 
+}
+
+.roxo{
+    background-color: purple;  
+}
+
+.preto{
+    background-color: black;  
+}
+
+.text{
+    text-align: center;
+}
